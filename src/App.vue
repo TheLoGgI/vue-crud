@@ -1,10 +1,34 @@
 <template>
+<div id="headingTeleport"></div>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Collection</router-link> |
+    <router-link to="/create">Create</router-link> |
+    <router-link to="/delete">Delete</router-link>
   </div>
-  <router-view/>
+  <router-view />
 </template>
+
+<script>
+
+// https://github.com/vuejs/vuefire/tree/master/packages/vuefire
+
+
+// import { ref } from "@vue/composition-api"; // <-- Use this line if you're in a Vue 2 app with the composition API plugin
+// import { ref } from "vue"; // <-- Use this line if you're in a Vue 3 app
+
+export default {
+
+  // emits: {
+
+  //   changeHeading: (heading) => {
+  //     console.log(title, heading);
+  //     title = heaidng
+  //   }
+  // },
+
+};
+</script>
+
 
 <style>
 #app {
@@ -27,4 +51,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.btn--active:active {
+  background-color: #9C27B0;
+	color: white;
+}
+
 </style>
