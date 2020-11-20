@@ -10,10 +10,11 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
+Re### Live Version
 ```
-npm run build
+http://vue-crud.lasseaakjaer.com/
 ```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
