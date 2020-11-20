@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-Re### Live Version
+### Live Version
 ```
 http://vue-crud.lasseaakjaer.com/
 ```
